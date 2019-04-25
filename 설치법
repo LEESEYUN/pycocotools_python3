@@ -1,0 +1,17 @@
+sudo apt-get install python3-pip 
+pip3 install cython
+pip3 install setuptools
+
+cd cocoapi
+cd PythonAPI
+
+sudo make all
+sudo make install
+
+
+#Test
+
+python3
+
+import pycocotools.coco import COCO
+
